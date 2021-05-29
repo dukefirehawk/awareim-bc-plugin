@@ -1,0 +1,80 @@
+# A sample properties file that can be used to override the BO Name and attributes
+# UnComment out the relevant # sections wherever override is required
+
+#
+# Input Section:
+# 
+
+#Name of the input attribute - Please note the input BO Name can be anything!
+
+# Settings BO
+#setttingsBo=bigcommerce_settings
+
+#Name of the attribute that holds the username
+#username=username
+
+#Name of the attribute that holds the password
+#password=password
+
+#Name of the attribute that holds the store url
+#storeUrl=storeUrl
+
+#Name of the attribute that holds the Sync Option: all or update
+#syncOption=sync_option
+
+#
+# Output Section:
+#
+
+#Name of the Error BO that holds the json data
+errorBoNameKey=web_service_logs
+
+#Name of the BO that holds the e_category
+boNameKey=e_category
+
+#Name of the attribute that holds the Id
+#categoryIdKey=category_id
+
+#Name of the attribute that holds the Parent Id
+#parentIdKey=parent_id
+
+#Name of the attribute that holds the Name
+#nameKey=name
+
+#Name of the attribute that holds the Description
+#descriptionKey=description
+
+#Name of the attribute that holds the Sort Order
+#sortOrderKey=sort_order
+
+#Name of the attribute that holds the Page Title
+#pageTitleKey=page_title
+
+#Name of the attribute that holds the Meta Keywords
+#metaKeywordsKey=meta_keywords
+
+#Name of the attribute that holds the Meta Description
+#metaDescriptionKey=meta_description
+
+#Name of the attribute that holds the Layout File
+#layoutFileKey=layout_file
+
+#Name of the attribute that holds the Image File 
+#imageFileKey=image_file
+
+#Name of the attribute that holds the Is Visible
+#isVisibleKey=is_visible
+
+#Name of the attribute that holds the Search Keywords
+#searchKeywordsKey=search_keywords
+
+#Name of the attribute that holds the url
+#urlKey=url
+
+# Error Bo
+#errorActionKey=action
+#errorCreatedDateKey=created_date
+#errorMessageKey=error_message
+#errorProcessNameKey=process_name
+#errorStatusKey=status
+

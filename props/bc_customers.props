@@ -1,0 +1,122 @@
+# A sample properties file that can be used to override the BO Name and attributes
+# UnComment out the relevant # sections wherever override is required
+
+#
+# Input Section:
+# 
+
+#Name of the input attribute - Please note the input BO Name can be anything!
+
+# Settings BO
+#setttingsBo=bigcommerce_settings
+
+#Name of the attribute that holds the username
+#username=username
+
+#Name of the attribute that holds the password
+#password=password
+
+#Name of the attribute that holds the store url
+#storeUrl=storeUrl
+
+#Record retrieval mode
+#sync_status=Completed
+
+# Input parameter for service call
+inputParametersNameQuery=get_input_parameters
+
+#Records syncing cap
+#sync_cap=6000
+
+#Name queries
+named_customer_query=get_by_customer_id
+named_customer_time_query=get_customer_max_modified_time
+
+#
+# Output Section:
+#
+
+#Name of the BO that holds the Product
+boNameKey=e_customers
+
+#Name of the Error BO that holds the blob
+errorBoNameKey=web_service_logs
+
+#Name of the Error BO that holds the error message
+#errorMessageKey=error_message
+
+#Name of the Error BO that holds the error timestamp
+#errorTimestampKey=error_timestamp
+
+#Name of the attribute that holds the send data
+#send_dataKey=send_data
+
+#Name of the attribute that holds the json data
+#json_dataKey=json_data
+
+#Name of the attribute that holds the address_one
+#address_oneKey=address_one
+
+#Name of the attribute that holds the address_two
+#address_twoKey=address_two
+
+#Name of the attribute that holds the address_type
+#address_typeKey=address_type
+
+#Name of the attribute that holds the city
+#cityKey=city
+
+#Name of the attribute that holds the company
+#companyKey=company
+
+#Name of the attribute that holds the country
+#countryKey=country
+
+#Name of the attribute that holds the country_code
+#country_codeKey=country_code
+
+#Name of the attribute that holds the customer_id
+#customer_idKey=customer_id
+
+#Name of the attribute that holds the customer_group_id
+#customer_group_idKey=customer_group_id
+
+#Name of the attribute that holds the date_created
+#date_createdKey=date_created
+
+#Name of the attribute that holds the date_updated
+#date_updatedKey=date_updated
+
+#Name of the attribute that holds the email_address
+#email_addressKey=email_address
+
+#Name of the attribute that holds the first_name
+#first_nameKey=first_name
+
+#Name of the attribute that holds the last_name
+#last_nameKey=last_name
+
+#Name of the attribute that holds the notes
+#notesKey=notes
+
+#Name of the attribute that holds the phone
+#phoneKey=phone
+
+#Name of the attribute that holds the registration_ip_address
+#registration_ip_addressKey=registration_ip_address
+
+#Name of the attribute that holds the state
+#stateKey=state
+
+#Name of the attribute that holds the store_credit
+#store_creditKey=store_credit
+
+#Name of the attribute that holds the zip
+#zipKey=zip
+
+# Error Bo
+#errorActionKey=action
+#errorCreatedDateKey=created_date
+#errorMessageKey=error_message
+#errorProcessNameKey=process_name
+#errorStatusKey=status

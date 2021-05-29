@@ -1,0 +1,76 @@
+# A sample properties file that can be used to override the BO Name and attributes
+# UnComment out the relevant # sections wherever override is required
+
+#
+# Input Section:
+# 
+
+#Name of the input attribute - Please note the input BO Name can be anything!
+
+# Settings BO
+#setttingsBo=bigcommerce_settings
+
+#Name of the attribute that holds the username
+#username=username
+
+#Name of the attribute that holds the password
+#password=password
+
+#Name of the attribute that holds the store url
+#storeUrl=storeUrl
+
+#Name of the attribute that holds the Sync Option: all or update
+#syncOption=sync_option
+
+#
+# Output Section:
+#
+
+#Name of the Error BO that holds the json data
+errorBoNameKey=web_service_logs
+
+#Name of the BO that holds the Product
+boNameKey=e_get_coupon
+
+#Name of the attribute that holds the Id
+#couponIdKey=coupon_id
+
+#Name of the attribute that holds the Name
+#nameKey=name
+
+#Name of the attribute that holds the Type
+#typeKey=type
+
+#Name of the attribute that holds the Amount
+#amountKey=amount
+
+#Name of the attribute that holds the Min Purchase
+#minPurchaseKey=min_purchase
+
+#Name of the attribute that holds the Expires
+#expiresKey=expires
+
+#Name of the attribute that holds the Code
+#codeKey=code
+
+#Name of the attribute that holds the Num Uses
+#numUsesKey=num_uses
+
+#Name of the attribute that holds the Max Uses
+#maxUsesKey=max_uses
+
+#Name of the attribute that holds the Max Uses Per Customer
+#maxUsesPerCustomerKey=max_uses_per_customer
+
+#Name of the attribute that holds the Min Purchase
+#minPurchaseKey=min_purchase
+
+#Name of the attribute that holds the Enabled
+#enabledKey=enabled
+
+# Error Bo
+#errorActionKey=action
+#errorCreatedDateKey=created_date
+#errorMessageKey=error_message
+#errorProcessNameKey=process_name
+#errorStatusKey=status

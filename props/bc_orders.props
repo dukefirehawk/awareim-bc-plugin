@@ -1,0 +1,224 @@
+# A sample properties file that can be used to override the BO Name and attributes
+# UnComment out the relevant # sections wherever override is required
+
+#
+# Input Section:
+# 
+
+#Name of the input attribute - Please note the input BO Name can be anything!
+
+# Settings BO
+#setttingsBo=bigcommerce_settings
+
+#Name of the attribute that holds the username
+#username=username
+
+#Name of the attribute that holds the password
+#password=password
+
+#Name of the attribute that holds the store url
+#storeUrl=storeUrl
+
+#Input parameter for service call
+inputParametersNameQuery=get_input_parameters
+
+#Record retrieval mode
+#sync_status=sync_status
+
+#Name of the attribute that holds the Sync Option: all or update
+#syncOption=sync_option
+
+#Record retrieval mode
+#sync_starting_id=sync_starting_id
+
+#Records syncing cap
+#sync_cap=6000
+
+#Name queries
+named_order_query=get_by_order_id
+named_order_time_query=get_order_max_modified_time
+
+#
+# Output Section:
+#
+
+#Name of the Error BO that holds the json data
+errorBoNameKey=web_service_logs
+
+#Name of the BO that holds the Product
+boNameKey=e_orders
+
+#Name of the attribute that holds the send data
+#send_dataKey=send_data
+
+#Name of the attribute that holds the json data
+#json_dataKey=json_data
+
+#Name of the attribute that holds the Address_One
+#Address_OneKey=Address_One
+
+#Name of the attribute that holds the Address_Two
+#Address_TwoKey=Address_Two
+
+#Name of the attribute that holds the Base_Handling_Cost
+#Base_Handling_CostKey=Base_Handling_Cost
+
+#Name of the attribute that holds the Base_Shipping_Cost
+#Base_Shipping_CostKey=Base_Shipping_Cost
+
+#Name of the attribute that holds the Base_Wrapping_Cost
+#Base_Wrapping_CostKey=Base_Wrapping_Cost
+
+#Name of the attribute that holds the City
+#CityKey=City
+
+#Name of the attribute that holds the Company
+#CompanyKey=Company
+
+#Name of the attribute that holds the cost_shipping
+#cost_shippingKey=cost_shipping
+
+#Name of the attribute that holds the cost_subtotal
+#cost_subtotalKey=cost_subtotal
+
+#Name of the attribute that holds the cost_tax
+#cost_taxKey=cost_tax
+
+#Name of the attribute that holds the Country
+#CountryKey=Country
+
+#Name of the attribute that holds the Currency_code
+#Currency_codeKey=Currency_code
+
+#Name of the attribute that holds the Currency_Exchange_Rate
+#Currency_Exchange_RateKey=Currency_Exchange_Rate
+
+#Name of the attribute that holds the Customer_Message
+#Customer_MessageKey=Customer_Message
+
+#Name of the attribute that holds the date_created
+#date_createdKey=date_created
+
+#Name of the attribute that holds the date_shipped
+#date_shippedKey=date_shipped
+
+#Name of the attribute that holds the date_updated
+#date_updatedKey=date_updated
+
+#Name of the attribute that holds the Default_Currency_Code
+#Default_Currency_CodeKey=Default_Currency_Code
+
+#Name of the attribute that holds the Discount_Amount
+#Discount_AmountKey=Discount_Amount
+
+#Name of the attribute that holds the Doupon_Discount
+#Doupon_DiscountKey=Doupon_Discount
+
+#Name of the attribute that holds the Email_Address
+#Email_AddressKey=Email_Address
+
+#Name of the attribute that holds the External_Source
+#External_SourceKey=External_Source
+
+#Name of the attribute that holds the First_Name
+#First_NameKey=First_Name
+
+#Name of the attribute that holds the Geoip_Country
+#Geoip_CountryKey=Geoip_Country
+
+#Name of the attribute that holds the Geoip_Country_iso2
+#Geoip_Country_iso2Key=Geoip_Country_iso2
+
+#Name of the attribute that holds the Gift_Certificate_Amount
+#Gift_Certificate_AmountKey=Gift_Certificate_Amount
+
+#Name of the attribute that holds the Handling_Cost_Ex_Tax
+#Handling_Cost_Ex_TaxKey=Handling_Cost_Ex_Tax
+
+#Name of the attribute that holds the Handling_Cost_Inc_Tax
+#Handling_Cost_Inc_TaxKey=Handling_Cost_Inc_Tax
+
+#Name of the attribute that holds the Handling_Cost_Tax
+#Handling_Cost_TaxKey=Handling_Cost_Tax
+
+#Name of the attribute that holds the ip_address
+#ip_addressKey=ip_address
+
+#Name of the attribute that holds the Items_Shipped
+#Items_ShippedKey=Items_Shipped
+
+#Name of the attribute that holds the Items_Total
+#Items_TotalKey=Items_Total
+
+#Name of the attribute that holds the Last_Name
+#Last_NameKey=Last_Name
+
+#Name of the attribute that holds the order_id
+#order_idKey=order_id
+
+#Name of the attribute that holds the Order_Is_Digital
+#Order_Is_DigitalKey=Order_Is_Digital
+
+#Name of the attribute that holds the Order_Source
+#Order_SourceKey=Order_Source
+
+#Name of the attribute that holds the Payment_Method
+#Payment_MethodKey=Payment_Method
+
+#Name of the attribute that holds the Payment_Status
+#Payment_StatusKey=Payment_Status
+
+#Name of the attribute that holds the Phone
+#PhoneKey=Phone
+
+#Name of the attribute that holds the Refunded_Amount
+#Refunded_AmountKey=Refunded_Amount
+
+#Name of the attribute that holds the sale_amount
+#sale_amountKey=sale_amount
+
+#Name of the attribute that holds the Shipping_Cost_Ex_Tax
+#Shipping_Cost_Ex_TaxKey=Shipping_Cost_Ex_Tax
+
+#Name of the attribute that holds the Shipping_Cost_Tax
+#Shipping_Cost_TaxKey=Shipping_Cost_Tax
+
+#Name of the attribute that holds the Staff_Notes
+#Staff_NotesKey=Staff_Notes
+
+#Name of the attribute that holds the State
+#StateKey=State
+
+#Name of the attribute that holds the status
+#statusKey=status
+
+#Name of the attribute that holds the Store_Credit_Amount
+#Store_Credit_AmountKey=Store_Credit_Amount
+
+#Name of the attribute that holds the Subtotal_Inc_Tax
+#Subtotal_Inc_TaxKey=Subtotal_Inc_Tax
+
+#Name of the attribute that holds the Subtotal_Tax
+#Subtotal_TaxKey=Subtotal_Tax
+
+#Name of the attribute that holds the Total_Ex_Tax
+#Total_Ex_TaxKey=Total_Ex_Tax
+
+#Name of the attribute that holds the Wrapping_Cost_Ex_Tax
+#Wrapping_Cost_Ex_TaxKey=Wrapping_Cost_Ex_Tax
+
+#Name of the attribute that holds the Wrapping_Cost_Inc_Tax
+#Wrapping_Cost_Inc_TaxKey=Wrapping_Cost_Inc_Tax
+
+#Name of the attribute that holds the Wrapping_Cost_Tax
+#Wrapping_Cost_TaxKey=Wrapping_Cost_Tax
+
+#Name of the attribute that holds the Zip
+#ZipKey=Zip
+
+# Error Bo
+#errorActionKey=action
+#errorCreatedDateKey=created_date
+#errorMessageKey=error_message
+#errorProcessNameKey=process_name
+#errorStatusKey=status

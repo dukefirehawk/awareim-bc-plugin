@@ -1,0 +1,95 @@
+# A sample properties file that can be used to override the BO Name and attributes
+# UnComment out the relevant # sections wherever override is required
+
+#
+# Input Section:
+# 
+
+#Name of the input attribute - Please note the input BO Name can be anything!
+
+# Settings BO
+#setttingsBo=bigcommerce_settings
+
+#Name of the attribute that holds the username
+#username=username
+
+#Name of the attribute that holds the password
+#password=password
+
+#Name of the attribute that holds the store url
+#storeUrl=storeUrl
+
+#Record retrieval mode
+#sync_status=Completed
+
+#Name queries
+named_order_item_query=get_by_order_item_id
+named_order_item_time_query=get_order_item_max_modified_time
+
+#
+# Output Section:
+#
+
+#Name of the Error BO that holds the json data
+errorBoNameKey=web_service_logs
+
+#Name of the BO that holds the Product
+boNameKey=e_order_items
+
+#Name of the attribute that holds the send data
+#send_dataKey=send_data
+
+#Name of the attribute that holds the json data
+#json_dataKey=json_data
+
+#Name of the attribute that holds the reference to order
+#orderKey=e_order
+
+#Name of the attribute that holds the categories
+#categoriesKey=categories
+
+#Name of the attribute that holds the date_created
+#date_createdKey=date_created
+
+#Name of the attribute that holds the date_updated
+#date_updatedKey=date_updated
+
+#Name of the attribute that holds the description
+#descriptionKey=description
+
+#Name of the attribute that holds the HTML_Description
+#HTML_DescriptionKey=HTML_Description
+
+#Name of the attribute that holds the item_id
+#item_idKey=item_id
+
+#Name of the attribute that holds the name
+#nameKey=name
+
+#Name of the attribute that holds the price_ex_tax
+#price_ex_taxKey=price_ex_tax
+
+#Name of the attribute that holds the price_inc_tax
+#price_inc_taxKey=price_inc_tax
+
+#Name of the attribute that holds the quantity
+#quantityKey=quantity
+
+#Name of the attribute that holds the sku
+#skuKey=sku
+
+#Name of the attribute that holds the upc
+#upcKey=upc
+
+#Name of the attribute that holds the weight
+#weightKey=weight
+
+#Name of the attribute that holds the product id
+#productIdKey=product_id
+
+# Error Bo
+#errorActionKey=action
+#errorCreatedDateKey=created_date
+#errorMessageKey=error_message
+#errorProcessNameKey=process_name
+#errorStatusKey=status

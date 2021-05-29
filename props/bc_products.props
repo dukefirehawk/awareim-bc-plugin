@@ -1,0 +1,228 @@
+# A sample properties file that can be used to override the BO Name and attributes
+# UnComment out the relevant # sections wherever override is required
+
+#
+# Input Section:
+# 
+
+#Name of the input attribute - Please note the input BO Name can be anything!
+
+# Settings BO
+#setttingsBo=bigcommerce_settings
+
+#Name of the attribute that holds the username
+#username=username
+
+#Name of the attribute that holds the password
+#password=password
+
+#Name of the attribute that holds the store url
+#storeUrl=storeUrl
+
+#Name of the attribute that holds the Sync Option: all or update
+#syncOption=sync_option
+
+#Input parameter for service call
+inputParametersNameQuery=get_input_parameters
+
+#Record retrieval mode
+#sync_status=Completed
+
+#Name queries
+named_product_query=get_by_product_id
+named_product_time_query=get_product_max_modified_time
+
+#
+# Output Section:
+#
+
+#Name of the Error BO that holds the json data
+errorBoNameKey=web_service_logs
+
+#Name of the BO that holds the Product
+boNameKey=e_products
+
+#Name of the attribute that holds the send data
+#send_dataKey=send_data
+
+#Name of the attribute that holds the json data
+#json_dataKey=json_data
+
+#Name of the attribute that holds the Availability
+#AvailabilityKey=Availability
+
+#Name of the attribute that holds the Availability_Description
+#Availability_DescriptionKey=Availability_Description
+
+#Name of the attribute that holds the Bin_Picking_Number
+#Bin_Picking_NumberKey=Bin_Picking_Number
+
+#Name of the attribute that holds the Category
+#CategoryKey=Category
+
+#Name of the attribute that holds the Cost_Price
+#Cost_PriceKey=Cost_Price
+
+#Name of the attribute that holds the date_created
+#date_createdKey=date_created
+
+#Name of the attribute that holds the Date_Last_imported
+#Date_Last_importedKey=Date_Last_imported
+
+#Name of the attribute that holds the date_updated
+#date_updatedKey=date_updated
+
+#Name of the attribute that holds the Depth
+#DepthKey=Depth
+
+#Name of the attribute that holds the Description
+#DescriptionKey=Description
+
+#Name of the attribute that holds the Fixed_Cost_Shipping_Price
+#Fixed_Cost_Shipping_PriceKey=Fixed_Cost_Shipping_Price
+
+#Name of the attribute that holds the Height
+#HeightKey=Height
+
+#Name of the attribute that holds the Inventory_Level
+#Inventory_LevelKey=Inventory_Level
+
+#Name of the attribute that holds the Inventory_Warning_Level
+#Inventory_Warning_LevelKey=Inventory_Warning_Level
+
+#Name of the attribute that holds the Inventory_Tracking
+#Inventory_TrackingKey=Inventory_Tracking
+
+#Name of the attribute that holds the Is_Featured
+#Is_FeaturedKey=Is_Featured
+
+#Name of the attribute that holds the Is_Free_Shipping
+#Is_Free_ShippingKey=Is_Free_Shipping
+
+#Name of the attribute that holds the Is_Preorder_Only
+#Is_Preorder_OnlyKey=Is_Preorder_Only
+
+#Name of the attribute that holds the Is_Visible
+#Is_VisibleKey=Is_Visible
+
+#Name of the attribute that holds the Meta_Description
+#Meta_DescriptionKey=Meta_Description
+
+#Name of the attribute that holds the Meta_Keywords
+#Meta_KeywordsKey=Meta_Keywords
+
+#Name of the attribute that holds the Name
+#NameKey=Name
+
+#Name of the attribute that holds the Number_Sold
+#Number_SoldKey=Number_Sold
+
+#Name of the attribute that holds the Order_Quantity_Maximum
+#Order_Quantity_MaximumKey=Order_Quantity_Maximum
+
+#Name of the attribute that holds the Order_Quantity_Minimum
+#Order_Quantity_MinimumKey=Order_Quantity_Minimum
+
+#Name of the attribute that holds the Pre_Order_Release_Date
+#Pre_Order_Release_DateKey=Pre_Order_Release_Date
+
+#Name of the attribute that holds the Preorder_Message
+#Preorder_MessageKey=Preorder_Message
+
+#Name of the attribute that holds the Price
+#PriceKey=Price
+
+#Name of the attribute that holds the Product_ID
+#Product_IDKey=Product_ID
+
+#Name of the attribute that holds the Rating_Count
+#Rating_CountKey=Rating_Count
+
+#Name of the attribute that holds the Rating_Total
+#Rating_TotalKey=Rating_Total
+
+#Name of the attribute that holds the Related_Products
+#Related_ProductsKey=Related_Products
+
+#Name of the attribute that holds the Retail_Price
+#Retail_PriceKey=Retail_Price
+
+#Name of the attribute that holds the Sale_Price
+#Sale_PriceKey=Sale_Price
+
+#Name of the attribute that holds the Search_Keywords
+#Search_KeywordsKey=Search_Keywords
+
+#Name of the attribute that holds the SKU
+#SKUKey=SKU
+
+#Name of the attribute that holds the Sort_Order
+#Sort_OrderKey=Sort_Order
+
+#Name of the attribute that holds the Total_Sold
+#Total_SoldKey=Total_Sold
+
+#Name of the attribute that holds the Type
+#TypeKey=Type
+
+#Name of the attribute that holds the UPC
+#UPCKey=UPC
+
+#Name of the attribute that holds the View_Count
+#View_CountKey=View_Count
+
+#Name of the attribute that holds the Warranty
+#WarrantyKey=Warranty
+
+#Name of the attribute that holds the Weight
+#WeightKey=Weight
+
+#Name of the attribute that holds the Width
+#WidthKey=Width
+
+# Inventory
+inventoryBoKey=e_inventory
+
+#inventoryIdKey=inventory_id
+
+#inventoryCostPriceKey=cost_price
+
+#inventoryDescriptionKey=description
+
+#inventorySkuKey=sku
+
+#inventoryProductRefKey=product
+
+#inventoryOptionsRefKey=inventory_options
+
+#inventorySkuLevelKey=inventory_level
+
+#inventorySkuWarningLevelKey=inventory_warning_level
+
+#inventoryUpcKey=upc
+
+#inventoryBinPickingNumberKey=bin_picking_number
+
+# Inventory Option
+optionBoKey=e_inventory_options
+
+#optionPrimaryIdKey=inventory_option_id
+
+#optionLabelKey=label
+
+#optionNameKey=name
+
+#optionOptionIdKey=option_id
+
+#optionValueIdKey=option_value_id
+
+#optionInventoryRefKey=inventory
+
+
+# Error Bo
+#errorActionKey=action
+#errorCreatedDateKey=created_date
+#errorMessageKey=error_message
+#errorProcessNameKey=process_name
+#errorStatusKey=status
+
