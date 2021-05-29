@@ -24,4 +24,4 @@ This is a private repository for custom process to integrate with BigCommerce
 
 ## Development Progress
 
-- See CHANGELOG.md
+- See [CHANGELOG](./CHANGELOG.md)
